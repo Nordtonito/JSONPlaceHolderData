@@ -1,53 +1,280 @@
 {
+  "menu": [
+        {
+          "category": "drinks",
+          "name": "Ale",
+          "description": "Pint of ale!",
+          "price": 40,
+          "volume": 1000
+        },
+        {
+          "category": "drinks",
+          "name": "Beer",
+          "description": "Live beer",
+          "price": 25,
+          "volume": 500
+        },
+        {
+          "category": "drinks",
+          "name": "Non-alcohol Vodka",
+          "description": "Like vodka, but non-alcoholic",
+          "price": 75,
+          "volume": 100
+        },
+        {
+          "category": "drinks",
+          "name": "Manapotion",
+          "description": "Restores mana",
+          "price": 50,
+          "volume": 100
+        },
+        {
+          "category": "drinks",
+          "name": "Water",
+          "description": "It's just water, seriously",
+          "price": 5,
+          "volume": 500
+        },
+        {
+          "category": "food",
+          "name": "Lasagna",
+          "description": "It's interesting",
+          "price": 45,
+          "weight": 350
+        },
+        {
+          "category": "food",
+          "name": "Omelet",
+          "description": "Made from eggs",
+          "price": 20,
+          "weight": 200
+        },
+        {
+          "category": "food",
+          "name": "Mushrooms",
+          "description": "Non-magic... maybe",
+          "price": 25,
+          "weight": 150
+        },
+        {
+          "category": "food",
+          "name": "Rabbit",
+          "description": "He doesn't run anymore",
+          "price": 40,
+          "weight": 200
+        },
+        {
+          "category": "food",
+          "name": "Steak",
+          "description": "BIG steak",
+          "price": 50,
+          "weight": 200
+        },
+        {
+          "category": "food",
+          "name": "Fried Potato",
+          "description": "Now with a crisp",
+          "price": 15,
+          "weight": 150
+        },
+        {
+          "category": "food",
+          "name": "Cheese",
+          "description": "Smells weird",
+          "price": 25,
+          "weight": 115
+        },
+        {
+          "category": "food",
+          "name": "Salad",
+          "description": "It's healthy food: cucumbers, tomatoes and onions",
+          "price": 25,
+          "weight": 175
+        }
+  ],
+
   "tables": [
       {
-        "table": 1,
-        "reserved": false,
+        "id": 1,
+        "reserved": {
+          "12": false,
+          "13": false,
+          "14": false,
+          "15": false,
+          "16": false,
+          "17": false,
+          "18": false,
+          "19": false,
+          "20": false,
+          "21": false,
+          "22": false,
+          "23": false
+        },
         "places": 2
       },
       {
-        "table": 2,
-        "reserved": false,
+        "id": 2,
+        "reserved": {
+          "12": false,
+          "13": false,
+          "14": false,
+          "15": false,
+          "16": false,
+          "17": false,
+          "18": false,
+          "19": false,
+          "20": false,
+          "21": false,
+          "22": false,
+          "23": false
+        },
         "places": 2
       },
       {
-        "table": 3,
-        "reserved": false,
-        "places": 2
+        "id": 3,
+        "reserved": {
+          "12": false,
+          "13": false,
+          "14": false,
+          "15": false,
+          "16": false,
+          "17": false,
+          "18": false,
+          "19": false,
+          "20": false,
+          "21": false,
+          "22": false,
+          "23": false
+        },
+        "places": 2,
+        "time": {
+
+        }
       },
       {
-        "table": 4,
-        "reserved": false,
+        "id": 4,
+        "reserved": {
+          "12": false,
+          "13": false,
+          "14": false,
+          "15": false,
+          "16": false,
+          "17": false,
+          "18": false,
+          "19": false,
+          "20": false,
+          "21": false,
+          "22": false,
+          "23": false
+        },
         "places": 4
       },
       {
-        "table": 5,
-        "reserved": false,
+        "id": 5,
+        "reserved": {
+          "12": false,
+          "13": false,
+          "14": false,
+          "15": false,
+          "16": false,
+          "17": false,
+          "18": false,
+          "19": false,
+          "20": false,
+          "21": false,
+          "22": false,
+          "23": false
+        },
         "places": 4
       },
       {
-        "table": 6,
-        "reserved": false,
+        "id": 6,
+        "reserved": {
+          "12": false,
+          "13": false,
+          "14": false,
+          "15": false,
+          "16": false,
+          "17": false,
+          "18": false,
+          "19": false,
+          "20": false,
+          "21": false,
+          "22": false,
+          "23": false
+        },
         "places": 2
       },
       {
-        "table": 7,
-        "reserved": false,
+        "id": 7,
+        "reserved": {
+          "12": false,
+          "13": false,
+          "14": false,
+          "15": false,
+          "16": false,
+          "17": false,
+          "18": false,
+          "19": false,
+          "20": false,
+          "21": false,
+          "22": false,
+          "23": false
+        },
         "places": 6
       },
       {
-        "table": 8,
-        "reserved": false,
+        "id": 8,
+        "reserved": {
+          "12": false,
+          "13": false,
+          "14": false,
+          "15": false,
+          "16": false,
+          "17": false,
+          "18": false,
+          "19": false,
+          "20": false,
+          "21": false,
+          "22": false,
+          "23": false
+        },
         "places": 8
       },
       {
-        "table": 9,
-        "reserved": false,
+        "id": 9,
+        "reserved": {
+          "12": false,
+          "13": false,
+          "14": false,
+          "15": false,
+          "16": false,
+          "17": false,
+          "18": false,
+          "19": false,
+          "20": false,
+          "21": false,
+          "22": false,
+          "23": false
+        },
         "places": 2
       },
       {
-        "table": 10,
-        "reserved": false,
+        "id": 10,
+        "reserved": {
+          "12": false,
+          "13": false,
+          "14": false,
+          "15": false,
+          "16": false,
+          "17": false,
+          "18": false,
+          "19": false,
+          "20": false,
+          "21": false,
+          "22": false,
+          "23": false
+        },
         "places": 4
       }
   ]
